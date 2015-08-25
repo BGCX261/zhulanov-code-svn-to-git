@@ -1,0 +1,232 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(http://rk-olimp.ru/public/img/main-bg.gif) 0 0 repeat-x #F2F0DC;
+	color: #5D5B46;
+	font: 14px/18px Georgia, "Times New Roman", Times, serif;
+}
+
+div, p, ul, h2, img{ margin: 0px; padding: 0px; }
+
+ul{ list-style-type: none; }
+
+#topPan{
+	width: 778px;
+	height: 141px;
+	position: relative;
+	margin: 0 auto;
+	font: 14px/18px Arial, Helvetica, sans-serif;
+}
+
+#topPan ul{
+	width: 125px;
+	height: 22px;
+	position: absolute;
+	top: 0px;
+	right: 130px;
+}
+
+#topPan ul li{ float: left; width: 45px; height: 22px; }
+
+#topPan ul li a{
+	width: 45px;
+	height: 16px;
+	display: block;
+	background: url(http://rk-olimp.ru/public/img/arrow1.gif) 40px 6px no-repeat #CC0000;
+	color: #fff;
+	font: 13px/16px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+#topPan ul li a:hover{
+	background: url(http://rk-olimp.ru/public/img/arrow1-hover.gif) 40px 6px no-repeat #CC0000;
+	color: #FEF0B7;
+	text-decoration: none;
+}
+
+#topPan ul li.register{ float: left; width: 65px; height: 22px; }
+
+#topPan ul li.register a{
+	width: 65px;
+	height: 16px;
+	display: block;
+	background: url(http://rk-olimp.ru/public/img/arrow1.gif) 65px 6px no-repeat #CC0000;
+	color: #fff;
+	font: 13px/16px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 0 0 0 10px;
+}
+
+#topPan ul li.register a:hover{
+	background: url(http://rk-olimp.ru/public/img/arrow1-hover.gif) 65px 6px no-repeat #CC0000;
+	color: #FEF0B7;
+	text-decoration: none;
+}
+
+#topPan img.logo{
+	width: 210px;
+	height: 63px;
+	position: absolute;
+	top: 53px;
+	left: 48px;
+}
+
+#headerPan{
+	width: 778px;
+
+	margin: 0 auto;
+}
+
+#headerleftPan{ width: 46px; height: 228px; float: left; }
+
+#menuPan{ width: 778px; margin-bottom: 20px; }
+
+#menuPan ul{ width: 778px; height: 28px; }
+
+#menuPan ul li{ width: 194px; height: 28px; float: left; }
+
+#menuPan ul li a{
+	height: 28px;
+	display: block;
+	background: #fff;
+	color: #2F2A28;
+	border-right: 1px dashed #969260;
+	font: 13px/28px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+#menuPan ul li a:hover{
+	height: 28px;
+	background: #2F2A28;
+	color: #fff;
+	border: none;
+	text-decoration: none;
+}
+
+#headerbodyPan{
+	width: 778px;
+	background: #FEFDF1;
+	border-bottom: 1px solid #CDCAA3;
+	border-top: 1px solid #CDCAA3;
+}
+
+#headerbodyPan p{ padding: 15px; font-size: 17px; line-height: 23px; }
+
+#headerbodyPan p a{ color: gray; text-decoration: underline; }
+
+#headerbodyPan p a:hover{ text-decoration: none; }
+
+#bodyPan{
+	width: 778px;
+	margin: 0 auto;
+}
+
+#bodyPan h2{
+	width: 300px;
+	height: 54px;
+	background: #F2F0DC;
+	color: #D80000;
+	font: 26px/54px "Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+
+#bodyPan p{ padding: 10px 0 0; }
+
+#bodyPan p span{ font-weight: bold; }
+
+#bodyPan p.title{
+	height: 22px;
+	width: 380px;
+	background: #FEFEF6;
+	color: #000;
+	font-size: 18px;
+	line-height: 22px;
+	padding: 0px;
+}
+
+#bodyPan p.more{
+	width: 102px;
+	height: 16px;
+	margin: 0 0 0 582px;
+	padding: 0 0 14px 0;
+}
+
+#bodyPan p.more a{
+	width: 102px;
+	height: 16px;
+	display: block;
+	background: #F2F0DC;
+	color: #D80000;
+	font: 13px/16px "Trebuchet MS",Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#bodyPan p.more a:hover{
+	background: #F2F0DC;
+	color: #7E0202;
+	text-decoration: none;
+}
+
+#bodyPan p.border{
+	background: url(http://rk-olimp.ru/public/img/dot-line.gif) 0 0 repeat-x;
+	height: 1px;
+	padding: 0 0 14px 0;
+}
+
+/*----Body Bottom Panel----*/
+#bodybottomPan{
+	width: 778px;
+	position: relative;
+	margin: 0 auto;
+	padding: 30px 0 0 8px;
+}
+
+
+#footermainPan{
+	height: 135px;
+	background: url(http://rk-olimp.ru/public/img/footerbg.gif) 0 0 repeat-x #3B3B3B;
+	color: #fff;
+	font: 13px/20px "Trebuchet MS",Arial, Helvetica, sans-serif;
+	position: relative;
+	margin: 0 auto;
+	clear: both;
+	padding: 75px 0 0;
+}
+
+#footerPan{ width: 700px; position: relative; margin: 0 auto; }
+
+#footerPan ul{
+	width: 380px;
+	height: 20px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#footerPan li{ float: left; }
+
+#footerPan ul li a{
+	padding: 0 10px 0;
+	color: #fff;
+	background: #3B3B3B;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#footerPan ul li a:hover{ text-decoration: underline; }
+
+#footerPan p.copyright{
+	position: absolute;
+	left: 48px;
+	top: 50px;
+	background: #3B3B3B;
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+}
+
+#footerPan a{ color: white; text-decoration: underline; }
+
+#footerPan a:hover{ text-decoration: none; }
+
